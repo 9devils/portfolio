@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Christopher Neunteufel</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Christopher Neunteufel" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Christopher Neunteufel">Christopher Neunteufel</h1>
+
+          <p class="title">IT Security Specialist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="#" class="contact-link" data-email-link></a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="#" class="contact-link" data-email-link>Available on request</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Vienna, Austria</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link" data-email-link aria-label="Email">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/christopher-neunteufel-b23584143/" class="social-link"
+                target="_blank" rel="noopener" aria-label="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/9devils" class="social-link"
+                target="_blank" rel="noopener" aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+      </div>
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-email-link>
+              Email
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am an IT security specialist with over eight years of experience in the banking sector. My career
+            started in VPN operations and moved into the security team, DevOps, server administration and cyber
+            threat intelligence. On the blue team side I focus on monitoring, incident response, secure application
+            design and hardening systems, working with a SOC toolchain (SIEM/XDR/SOAR/UEBA). 
+          </p>
+          <p>
+            In my DevOps role I have
+            developed more than ten middleware services and tools to interconnect security systems and automate
+            workflows, using languages such as Python, PHP, TypeScript and C#. To keep up with fast-changing attack
+            schemes I joined the CTI team to collect, analyze and share threat intelligence and feed it back into our
+            defenses.
+          </p>
+
+          <p>
+            I see myself as a security-focused generalist who cares about clear documentation, enjoys explaining complex 
+            issues in plain language and keeps learning new technologies to turn them into practical defenses. I like 
+            working at the intersection of security, operations and development, helping teams turn abstract risks into 
+            concrete improvements.
+          </p>
+
+          <p>
+            Outside of work I spend my time bouldering, doing woodworking and DIY projects, running a small home
+            network lab, building electronics and enjoying cooking and grilling with a good beer. I am also passionate
+            about hi-fi systems for music and home cinema and have started building my own speakers.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Solution Manager</h4>
+                <p class="service-item-text">
+                  Managing a small team responsible for designing and operating security solutions, coordinating with stakeholders and keeping services stable and reliable.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Security analyst</h4>
+                <p class="service-item-text">
+                  Handling indicators of compromise by triaging alerts, enriching IOCs and working with other teams to contain incidents and reduce risk.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="analytics-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blue team</h4>
+                <p class="service-item-text">
+                  Strengthening defenses by tuning detections, closing monitoring gaps and continuously improving the overall security posture.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="newspaper-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cyber threat intelligence Officer</h4>
+                <p class="service-item-text">
+                  Collecting and analyzing threat intelligence, turning external and internal findings into briefings, IOCs and detection use cases for the security teams.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Application & system hardening</h4>
+                <p class="service-item-text">
+                  Hardening servers and applications through secure configuration, patching, access control and security baselines, with a focus on Linux environments.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming & development</h4>
+                <p class="service-item-text">
+                  Developing middleware services and small front- and back-end tools that connect security systems and support daily operations, using Python, PHP, TypeScript and C#.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="terminal-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation & tooling</h4>
+                <p class="service-item-text">
+                  Automating repetitive tasks and building helper scripts and tools in Python and on Linux to make security workflows faster and more reliable.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="mail-unread-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Security awareness & phishing campaigns</h4>
+                <p class="service-item-text">
+                  Designing and running internal phishing simulations and follow-up trainings to raise security awareness and change user behavior.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="document-text-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Documentation & guidelines</h4>
+                <p class="service-item-text">
+                  Creating and maintaining clear documentation, runbooks and guidelines so that processes, playbooks and solutions are understandable and repeatable.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Working Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <!-- 5 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DevOps, CTI team, Security Analyst, Erste Digital</h4>
+
+              <span>2021 — present</span>
+
+              <p class="timeline-text">
+                Developed 10+ middleware solutions as a DevOps engineer and member of a CTI team. Investigating security alerts 
+                and incidents as a security analyst, automating and operating security-related infrastructure, and analyzing cyber threat 
+                intelligence to provide actionable recommendations for improving defenses.
+              </p>
+
+            </li>
+
+            <!-- 4 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Security Analyst, Solution Manager, S-IT Solutions</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                Worked as a security analyst and server administrator/solution manager, hardening and maintaining 
+                servers while supporting the design and operation of security-focused infrastructure solutions.
+              </p>
+
+            </li>
+
+            <!-- 3 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VPN Engineer, S-IT Solutions</h4>
+
+              <span>2017 — 2017</span>
+
+              <p class="timeline-text">
+                Operated and improved the company’s VPN infrastructure, ensuring secure and reliable remote 
+                access for internal and external users.
+              </p>
+
+            </li>
+
+            <!-- 2 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Network Engineer, MCO-IT</h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">
+                Part-time employment for setting up networks end-to-end, including laying cables, configuring network 
+                devices, writing technical documentation and developing supporting software/tools.
+              </p>
+
+            </li>
+
+            <!-- 1 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mobile Network Field Service Technician Assistant, A1</h4>
+
+              <span>2011 — 2011</span>
+
+              <p class="timeline-text">
+                Responsible maintaining mobile base stations and antenna sites to diagnose, repair 
+                and maintain radio and network equipment, ensuring stable mobile coverage.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            <!-- 3 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Applied Sciences - St. Pölten</h4>
+
+              <span>2014 — 2017</span>
+
+              <p class="timeline-text">
+                Studied at the University of Applied Sciences St. Pölten with a focus on IT security, 
+                including secure system design, network and application security, as well as red teaming 
+                and penetration testing.
+              </p>
+
+            </li>
+
+            <!-- 2 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Red Cross - Vienna</h4>
+
+              <span>2012 — 2013</span>
+
+              <p class="timeline-text">
+                Emergency medical technician (Rettungssanitäter) with the Red Cross, providing 
+                pre-hospital emergency care and safe patient transport in urgent and non-urgent situations.
+              </p>
+
+            </li>
+
+            <!-- 1 -->
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Higher technical college - Spengergasse</h4>
+
+              <span>2007 — 2012</span>
+
+              <p class="timeline-text">
+                Graduated from HTL Spengergasse with a focus on network engineering, gaining solid 
+                experience in designing, implementing, configuring and securing network and server 
+                infrastructures.
+              </p>
+
+            </li>
+
+
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications & Trainings</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ITILv3 Foundation</h4>
+
+              <span>PeopleCert</span>
+
+              <p class="timeline-text">
+                ITIL v3 Foundation certification validates a basic understanding of IT service management best practices, 
+                covering key concepts, processes, and roles across the IT service lifecycle.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cisco Certified Network Associate</h4>
+
+              <span>Cisco</span>
+
+              <p class="timeline-text">
+                 CCNA certification is widely recognized in the IT industry as the foundational step for careers in IT positions and networking roles.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Why do I still want a blog in 2025?" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">General</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-11-17">Nov 17, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Why do I still want a blog in 2025?</h3>
+
+                  <p class="blog-text">
+                    Having fun with various projects, learning, solving problems and sharing with the community.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
